@@ -16,7 +16,7 @@ const Navbar = () => {
         icon: <House width={20} height={20} />
     }, {
         name: 'About',
-        href: '/about',
+        href: '/#about',
         icon: <Book  width={20} height={20} />
     }]
 
