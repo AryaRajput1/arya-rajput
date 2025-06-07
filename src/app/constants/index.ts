@@ -63,5 +63,32 @@ export const InfoAboutMe = {
             title: 'Responsive Design',
             icon: Smartphone,
             description: 'Delivered mobile-first, fully responsive UI experiences across devices using modern CSS and media queries.'
-        }]
+        }],
+    education:
+    {
+        '2015': 'Completed 10th Grade with 89.4% – Foundation in Mathematics and Science',
+        '2017': 'Completed 12th Grade with 87.4% – Specialization in PCM (Physics, Chemistry, Mathematics)',
+        '2018-2022': 'B.Tech in Computer Science 84% – Focus on Data Structures, Web Development, and Software Engineering',
+    },
+    experience: {
+        title: 'Frontend Developer',
+        subtitle: 'Infosys Ltd. — Jul 2022 – Present',
+        location: 'Hyderabad',
+        responsibility: [
+            'Developed scalable enterprise-grade applications using React.js and TypeScript.',
+            'Modernized legacy UI components, improving performance and reducing maintenance overhead.',
+            'Implemented accessibility (WCAG 2.1) and internationalization (i18n) across global modules.',
+            'Optimized performance with code-splitting, lazy loading, and memoization.',
+            'Collaborated with cross-functional Agile teams to deliver sprint-based feature releases.',
+            'Documented UI components using Storybook for design-dev alignment.',
+            'Integrated REST and GraphQL APIs with robust error handling and state management.',
+            'Mentored junior engineers and led internal sessions on React patterns and testing practices.'
+        ],
+        techStack: [
+            'React.js', 'TypeScript', 'Redux Toolkit', 'Chakra UI', 'Tailwind CSS',
+            'HTML5', 'CSS3', 'Jest', 'React Testing Library', 'Storybook',
+            'Git', 'Jira', 'Postman', 'Vite', 'Webpack', 'Jenkins',
+            'REST APIs', 'GraphQL (Basic)', 'Figma', 'i18n', 'Agile/Scrum'
+        ]
+    }
 }
