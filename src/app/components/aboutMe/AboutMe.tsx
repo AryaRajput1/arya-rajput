@@ -4,16 +4,16 @@ import React from 'react'
 
 const AboutMe = () => {
     return (
-        <div id='about' className='flex justify-between text-white py-4 gap-10'>
-            <div>
+        <div id='about' className='flex justify-between text-white py-4 gap-10 md:flex-row flex-col items-center md:items-start mx-10 md:mx-0'>
+            <div className='mt-10 md:mt-0'>
                 <Image src="/developer.jpg" width={400} height={600} alt='Ghibli Style Developer Image' />
             </div>
-            <div className='flex flex-col gap-6 w-2/3'>
+            <div className='flex flex-col gap-6 md:w-2/3 w-full'>
                 <h3 className='text-blue-500 font-semibold text-2xl'>Who am i?</h3>
                 <h2 className='text-3xl font-bold'>I’m Arya Rajput, a Frontend Developer with 3 years of hands-on experience.</h2>
                 <p className='text-sm text-gray-50 border-b-1 pb-10 tracking-wide'>A driven and detail-oriented Developer crafting intuitive and scalable web interfaces. With a strong foundation in modern JavaScript frameworks and a relentless commitment to clean, maintainable code, I’m not just building applications—I’m building user experiences that drive results. I treat personal development with the same discipline I apply to my career. I believe in mastering fundamentals, pushing boundaries, and never settling for mediocrity—because good enough simply isn’t.
                 </p>
-                <table className="w-full table-auto text-sm">
+                <table className="w-full table-auto md:text-sm text-xs">
                     <tbody>
                         <tr className="">
                             <td className="px-4 py-2">

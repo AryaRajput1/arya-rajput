@@ -23,13 +23,12 @@ const StatBar = () => {
         label: 'Successfull Prduction'
     }]
     return (
-        <div className='flex gap-3 justify-between'>
+        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 place-items-center'>
             {
                 stats.map((stat) => {
                     return <Stats {...stat} key={stat.id} />
                 })
             }
-
         </div>
     )
 }
