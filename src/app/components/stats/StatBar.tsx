@@ -9,7 +9,7 @@ const StatBar = () => {
         label: 'Projects Completed'
     },{
         id: 2,
-        prefix: 0,
+        prefix: '0',
         count: 3,
         suffix: '+',
         label: 'Years Experience'

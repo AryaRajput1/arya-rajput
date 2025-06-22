@@ -3,7 +3,7 @@
 import React from 'react'
 import CountUp from 'react-countup';
 
-type PropTypes = { count: number, label: string, suffix?: string, id:number, prefix?:number }
+type PropTypes = { count: number, label: string, suffix?: string, id:number, prefix?:string }
 
 const Stats = ({ count, label, suffix='', prefix }: PropTypes) => {
     return (

@@ -12,7 +12,7 @@ const Timeline = ({ title, description }: TimelineProps) => {
                 <div className='pl-10 flex items-center'>{description}</div>
             </article>
             <article className='text-white m-10 lg:hidden'>
-                <div className='text-xl font-bold text-blue-500 before:absolute before:content[""] before:h-3 before:w-3 before:border-2 before:bg-blue-500 before:border-none before:-left-5 before:top-1 before:rounded-full relative'>{title}</div>
+                <div className='text-xl font-bold text-blue-500 before:absolute before:content[""] before:h-3 before:w-3 before:border-2 before:bg-blue-500 before:border-none before:-left-5 before:top-2 before:rounded-full relative'>{title}</div>
                 <div className=''>{description}</div>
             </article>
         </>

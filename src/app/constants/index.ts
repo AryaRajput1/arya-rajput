@@ -90,5 +90,12 @@ export const InfoAboutMe = {
             'Git', 'Jira', 'Postman', 'Vite', 'Webpack', 'Jenkins',
             'REST APIs', 'GraphQL (Basic)', 'Figma', 'i18n', 'Agile/Scrum'
         ]
-    }
+    },
+    projects: [{
+        title: 'SummAIze',
+        descrption: "A webapp built using NextJs to summarize PDFs using AI.",
+        imageSrc: "/summaize.png",
+        demoLink: "https://summaize.vercel.app/",
+        githubLink: "https://github.com/AryaRajput1/summaize"
+    }]
 }
