@@ -17,8 +17,8 @@ const Hero = () => {
                         <h1 className='text-3xl md:text-6xl font-semibold leading-20'>A Web Developer</h1>
                     </div>
                     <div className='text-white text-center md:text-start'>
-                        <FloatingText className='top-20 right-20 md:top-10' key={'Arya'}> Arya</FloatingText>
-                        <FloatingText className='top-75 right-20 md:top-30' key={'Rajput'}> Rajput</FloatingText>
+                        <FloatingText className='top-20 right-35 md:top-10 lg:top-35' key={'Arya'}> Arya</FloatingText>
+                        <FloatingText className='top-75 right-35 md:top-30 lg:top-80' key={'Rajput'}> Rajput</FloatingText>
                         full‑stack JavaScript developer crafting fast, scalable web apps with React, Next.js, and Node.js. Check out my work and let’s build something great together.
                     </div>
                     <div className='mt-4'>
