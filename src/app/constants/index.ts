@@ -97,5 +97,11 @@ export const InfoAboutMe = {
         imageSrc: "/summaize.png",
         demoLink: "https://summaize.vercel.app/",
         githubLink: "https://github.com/AryaRajput1/summaize"
+    }, {
+        title: 'PrepInterview',
+        descrption: "A webapp built using NextJs to Practice Mock Interviews.",
+        imageSrc: "/arPrepInterview.png",
+        demoLink: "https://ar-prep-interview.vercel.app/",
+        githubLink: "https://github.com/AryaRajput1/prep-interview"
     }]
 }
