@@ -106,7 +106,7 @@ export const InfoAboutMe = {
     }, {
         title: 'CodingMasterAI',
         descrption: "A app which improves your code by giving Live review.",
-        imageSrc: "/codingAiMaster.png",
+        imageSrc: "/codingAIMaster.png",
         demoLink: "https://coding-ai-master.vercel.app/",
         githubLink: "https://github.com/AryaRajput1/coding-ai-master"
     },]
