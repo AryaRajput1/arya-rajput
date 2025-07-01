@@ -103,5 +103,11 @@ export const InfoAboutMe = {
         imageSrc: "/arPrepInterview.png",
         demoLink: "https://ar-prep-interview.vercel.app/",
         githubLink: "https://github.com/AryaRajput1/prep-interview"
-    }]
+    }, {
+        title: 'CodingMasterAI',
+        descrption: "A app which improves your code by giving Live review.",
+        imageSrc: "/codingAiMaster.png",
+        demoLink: "https://coding-ai-master.vercel.app/",
+        githubLink: "https://github.com/AryaRajput1/coding-ai-master"
+    },]
 }
